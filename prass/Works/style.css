@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: aliceblue; */
+}
+
+::placeholder{
+    text-align: center;
+}
+
+body{
+    margin: auto;
+    /* background: url(./images/Ayo_artwork_3.png); */
+    background-image: url(./images/Ayo_artwork_3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100vw; */
+    /* height: 100vh; */
+}
+
+h1, h2{
+    text-align: center;
+    padding-bottom: 0rem;
+    /* background-color: aliceblue; */
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    /* padding-top: 0.5rem; */
+    padding-bottom: 3rem;
+    /* background-color: aliceblue; */
+}
+
+.form {
+    width: fit-content;
+    border: solid 2px ;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    /* padding: 1rem;     */
+    /* background-color: antiquewhite; */
+    border-radius: 1rem;
+}
+
+.div_label {
+    /* margin-bottom: 1rem; */
+    width: 100%;
+    text-align: left;
+    /* display: flex; */
+    /* background-color: blue; */
+    /* flex-direction: row; */
+}
+
+/* .span_label { */
+   /* width: 25%; */
+/* } *

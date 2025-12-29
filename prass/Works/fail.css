@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    box-sizing: border-box;
+}
+
+.hj{
+    font-size: 30px;
+}
+
+p{
+    font-size: large;
+}
+.wrapper{
+    border: solid gray 1px;
+    padding-top: 1.5rem;
+    border-radius: 3px;
+    padding-bottom: 5rem;
+    background-color: aliceblue;
+    margin-left: 25rem;
+    margin-right: 20rem;
+    margin-top: 5rem;
+
+    /* margin: auto; */
+}
+
+.container{
+    text-align: center;
+    margin-top: 2rem;
+    /* margin-left: 5rem; */
+    background-color: aliceblue;
+}
+
+
+
+.circle_div{
+    /* background-color: red; */
+    background-image: url(./images/WIN_20240703_10_22_11_Pro.jpg);
+    border: solid gray 2px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    /* text-align: center; */
+    margin: auto;
+    margin-top: 3rem;
+    /* margin-left: 5rem; */
+}

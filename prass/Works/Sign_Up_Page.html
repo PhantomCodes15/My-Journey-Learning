@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Signup Page</title>
+    </head>
+    <body>
+        <div>
+            <h1>Skillup Training</h1>
+            <h2>Registration</h2>
+            <div class="container">
+                <form action="Information.html" class="form">
+                    <div class="div_label">
+                        <label for="fname">First Name:</label><br>
+                        <!-- <span class="span_label">
+                        </span> -->
+                        <input type="text" name="fname" id="fname" size="50" required placeholder="First Name">
+                    </div>
+                    <div class="div_label">
+                        <label for="lname">Last Name:</label><br>
+                        <!-- <span class="span_label">
+                        </span> -->
+                        <input type="text" name="lname" id="lname" size="50" required placeholder="Last Name">
+                    </div>
+                    <div class="div_label">
+                        <span class="span_label">
+                            <label for="email">Email:</label><br>
+                        </span>
+                        <input type="email" name="email" id="email" size="50" required placeholder="Your Email"><br>
+                    </div>
+
+                    <label for="age">Age:</label><br>
+                    <input type="number" name=" age" id="age" required placeholder="Your Age" size="10">
+                    
+                    <p>Would you like to join Skillup Training?</p>
+
+                    <input type="radio" name="choice" id="choice" required>
+                    <label for="choice">Yes</label><br>
+
+                    <input type="radio" name="choice" id="NO" required>
+                    <label for="NO">No</label><br>
+
+                    <input type="radio" name="choice" id="maybe" required>
+                    <label for="maybe">Maybe</label><br><br>
+                    
+                    <p>Would you like to join Upskill?</p>
+
+                    <input type="radio" name="choose" id="Yes" required>
+                    <label for="Yes">Yes</label><br>
+
+                    <input type="radio" name="choose" id="choices" required>
+                    <label for="choices">No</label><br>
+
+                    <input type="radio" name="choose" id="Maybe">
+                    <label for="Maybe">Maybe</label><br><br>
+
+                    <p>What would you like to learn?</p>
+
+                    <input type="checkbox" name="programming langs" id="HTML">
+                    <label for="HTML">HTML</label><br>
+
+                    <input type="checkbox" name="programming langs" id="CSS">
+                    <label for="CSS">CSS</label><br>
+
+                    <input type="checkbox" name="programming langs" id="Java Script">
+                    <label for="Java Script">Java Script</label><br><br>
+
+                    <p>Choose your Level</p>
+
+                    <select name="difficulty" id="difficulty">
+                        <option selected value="Noobie">Beginner</option>
+                        <option value="Normal">intermediate</option>
+                        <option value="Hard">Advanced</option>
+                        <option value="Super Hard">Master</option>
+                    </select><br><br>
+
+                    <input type="submit" value="Submit"><br>
+            </form>
+        </div>    
+    </body>
+</html>
