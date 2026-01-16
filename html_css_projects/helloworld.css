@@ -1,7 +1,40 @@
 *{
     background-color: lightcyan;
     text-align: center;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 div{
     color: red;
+    font-size: 17px;
+}
+.div1, .div2, .div3{
+    border-color: beige;
+    background-color: bisque;
+    padding: 15px;
+    width: 50%;
+    border-radius: 10px;
+    color: rgb(32, 65, 32);
+    margin: 10px;
+    margin-left: 20vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size: 40px;
+    color: rgb(178, 113, 29);
+}
+@media screen and (max-width:400px) {
+    *{
+        font-size: small;
+        background-color: aquamarine;
+    }
 }

@@ -1,12 +1,15 @@
 *{
     background-color: lightblue;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h1 {
     text-align: left;
-    margin-left: 4rem;
+    margin-left: 4px;
+    color: chocolate;
 }
 h2{
    text-align: left;
-   margin-left: 8rem;
+   margin-left: 4em;
+   color: red;
 }
