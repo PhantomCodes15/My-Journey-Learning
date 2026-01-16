@@ -1,0 +1,12 @@
+*{
+    background-color: lightblue;
+    text-align: center;
+}
+h1 {
+    text-align: left;
+    margin-left: 4rem;
+}
+h2{
+   text-align: left;
+   margin-left: 8rem;
+}
