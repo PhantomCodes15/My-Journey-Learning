@@ -4,12 +4,52 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h1 {
+    /* margin-left: 10px; */
+    /* display: inline-block; */
+    padding: 10px;
+    margin-top: 30px;
+    border: solid red;
+    width: fit-content;
+    transform: rotate(15deg);
     text-align: left;
-    margin-left: 4px;
     color: chocolate;
 }
-h2{
-   text-align: left;
+h2, h3,h6, div{
+   /* text-align: left; */
    margin-left: 4em;
    color: red;
+   border: solid chocolate;
+   width: fit-content;
+   padding: 10px;
+   transform: translateX(12em) rotate(15deg) ;
+}
+h3{
+    border: blueviolet solid;
+    color: brown ;
+    transform: translateX(25em) translateY(-1.3em) rotate(15deg) ;
+}
+h4{
+    color: blueviolet;
+    border: brown solid;
+    text-align: center;
+    padding: 10px;
+    display: inline;
+    width: auto; 
+}
+h5,h6,div{
+    color: rgb(63, 23, 70);
+    border: solid rgb(7, 26, 111);
+    transform: rotate(-15deg) translateY(13em) translateX(45em) ;
+    width: max-content;
+    /* display: inline-block; */
+    padding: 10px;
+}
+h6{
+    color: rgb(7, 26, 111) ;
+    border: solid rgb(63, 23, 70);
+}
+div{
+    color: purple;
+    border: solid palevioletred;
+    text-align: center;
 }
