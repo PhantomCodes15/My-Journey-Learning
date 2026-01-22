@@ -7,45 +7,56 @@ h1 {
     /* margin-left: 10px; */
     /* display: inline-block; */
     padding: 10px;
-    margin-top: 30px;
+    margin-top: 80px;
     border: solid red;
     width: fit-content;
-    transform: rotate(15deg);
+    transform: rotate(30deg);
     text-align: left;
     color: chocolate;
 }
-h2, h3,h6, div{
+h2, h3{
    /* text-align: left; */
    margin-left: 4em;
    color: red;
    border: solid chocolate;
    width: fit-content;
    padding: 10px;
-   transform: translateX(12em) rotate(15deg) ;
+   transform: translateX(10em) rotate(-30deg) ;
 }
 h3{
     border: blueviolet solid;
     color: brown ;
-    transform: translateX(25em) translateY(-1.3em) rotate(15deg) ;
+    transform: translateX(23em) translateY(-3em) rotate(30deg) ;
 }
 h4{
     color: blueviolet;
     border: brown solid;
     text-align: center;
     padding: 10px;
-    display: inline;
-    width: auto; 
+    /* display: inline; */
+    transform: translateX(40em) translateY(-10em) rotate(-30deg);
+    width: fit-content; 
 }
-h5,h6,div{
+h6,div{
     color: rgb(63, 23, 70);
     border: solid rgb(7, 26, 111);
-    transform: rotate(-15deg) translateY(13em) translateX(45em) ;
+    /* transform: rotate(-15deg) translateY(13em) translateX(45em) ; */
     width: max-content;
-    /* display: inline-block; */
+    text-align: center;
+    display: inline-block;
     padding: 10px;
+}
+h5{
+    border: solid rebeccapurple ;
+    padding: 10px;
+    width: fit-content;
+    text-align: center;
+    color: darkgreen;
+    margin: auto;
 }
 h6{
     color: rgb(7, 26, 111) ;
+    text-align: center;
     border: solid rgb(63, 23, 70);
 }
 div{
